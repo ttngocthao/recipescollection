@@ -1,0 +1,96 @@
+body {
+ background-image: url("https://static1.squarespace.com/static/5757943907eaa03affd47d2d/t/5852e1239f74562e807774e2/1481826597545/health-coach-new-york.jpg?format=1500w");
+margin: auto;
+}
+.content {
+position: relative;
+top: 70px; 
+}
+
+main {
+ grid-template: repeat(14,1fr) / repeat(20,1fr);
+ max-width: 1000px;
+ max-height: 500px;
+ display: grid;
+ grid-gap: 10px;
+ position: relative;
+ text-align: center;
+ margin: auto;
+ text-justify: center;
+ 
+}
+.welcome {
+ grid-area: 2 / 5 / 3 / 9;
+ color: white;
+ font-size: 30pt;
+ font-family: 'Dancing Script', cursive;
+ 
+ }
+.top-banner {
+ grid-area: 2/ 9/ 3 / 20;
+ font-family: 'Dancing Script', cursive;
+ color: white;
+ font-size: 40pt;
+ 
+}
+.VNR {
+ grid-area: 4/ 6/ 9/ 11;
+ border: 2px solid white;
+ padding-top: 50px;
+ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6b1D4xa6t5B4fPhpIKFyecWbuPspZqt2isjSiLb2VaagRmfdTkw");
+}
+.VNR a{
+ display: inline-block;
+ padding: 10px;
+ background-color: #dce4eb;
+ border-radius: 5px;
+ font-size: 15pt;
+ font-family: 'Dancing Script', cursive;
+ position: relative;
+ }
+.VNR a:active{
+ top: 2px;
+}
+.OR {
+grid-area: 3/ 11/ 8/ 16;
+border: 2px solid white;
+padding-top: 50px;
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFOD71C948_NLmMF1entZghDj511oI6S-WnGQPNYcwQgaWwSTkJw");
+}
+.OR a{
+ display: inline-block;
+ padding:10px;
+ background-color: #dce4eb;
+ font-size: 15pt;
+ border-radius: 5px;
+ font-family: 'Dancing Script', cursive;
+ position: relative;
+}
+.OR  a:active{
+ top: 2px;
+}
+.bottom-banner {
+grid-area: 9/ 4/ 10/ 15;
+padding: 10px;
+font-family: 'Dancing Script', cursive;
+color: white;
+font-size: 25pt;
+}
+.contact {
+grid-area: 8/ 15/ 10/ 19;
+padding-top: 20px;
+}
+.contact a{
+display: inline-block;
+width: 60px;
+padding: 10px;
+border: 2px solid #445162;
+border-radius: 5px;
+font-family: 'Dancing Script', cursive;
+background-color: #e3e6ee;
+box-shadow: 3px 3px 1px 0px #363636;
+position: relative;
+}
+.contact a:active{
+ top: 2px;
+}
